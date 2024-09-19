@@ -30,8 +30,8 @@ export default async function InvoicesTable({
                         src={invoice.image_url}
                         className="mr-2 rounded-full"
                         width={28}
-                        height={28}
-                        alt={`${invoice.name}'s profile picture`}
+                        height={28} 
+                        alt={''}                      
                       />
                       <p>{invoice.name}</p>
                     </div>
